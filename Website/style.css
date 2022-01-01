@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background: url("https://i.pinimg.com/originals/35/4a/97/354a97ff8cbed51fafac2eac38938626.jpg");
+  text-align:center;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content-container{
+border-radius:10px;
+margin: 20px auto;
+max-width: 70%;
+background-color: rgba(20, 20, 20, 0.8);  
+padding: 15px;
+margin-left:250px;
+margin-bottom: 30px;
+}
+
+.LinkImages {
+  height: 200px;
+  border-radius: 30px;
+
+}
+.LinkImages:hover {
+  height: 210px;
+}
+#InfographicImage {
+
+  height: 500px;
+
+}
+h1 {
+  color: #FFFFFF;
+  font-family: sans-serif;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  max-width: 600px;
+  position:relative;
+
+}
+h1:before{
+  content:"";
+  display:block;
+  width: 120px;
+  height:2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+}
+h1:after{
+  content:"";
+  display:block;
+  width: 120px;
+  height:2px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+h3 {
+  color: #FFFFFF;
+}
+h4 {
+  color: #FFFFFF;
+}
+
+ul{
+background: rgba(200, 200, 200, 0.1);
+}
+li {
+  list-style: none;
+ 
+}
+.ListImages{
+  height: 200px;
+  border-radius: 30px;
+}
+table{
+  border-collapse: collapse;
+  color: #FF5833;
+  margin: 50px auto 25px auto;
+}
+table th {
+text-align:left;
+color: #FFF;
+padding: 4px 30px 4px 8px;
+}
+table td {
+border: 1px solid #e3e3e3;
+padding: 4px 8px;
+color: #FFFFFF;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #009BB5;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 15px 5px 15px 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px ;
+  background-color:rgba(5, 5, 5, 0.8);
+  color: white;
+  text-align: center;
+
+}
+
+#AboutMeLink {
+  position: absolute;
+  right:40%;
+  left:40%;
+  bottom: 20px;
+
+}
+
+#InfographicParagraph {
+  font-family: Arial, Helvetica, sans-serif; 
+  color: white;
+}
+a:link {
+  color: white;
+}
+
+
+a:visited {
+  color: white;
+}
+
+
+a:hover {
+  color: rgb(255, 110, 105);
+}
+
+
+a:active {
+  color: blue;
+}
+
+p {
+max-width: 80%;
+margin-left:auto;
+margin-right:auto;
+color: white;
+}
+
+.flex-container {
+  display: flex;
+  background-color:  rgba(100, 100, 100, 0.2);
+  height:280px;
+  justify-content: space-between;
+}
+
+.flex-container > div {
+  background-color:  rgba(200, 200, 200, 0.1);
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 50px;;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.ImageContainer {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  display:inline-block
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color:rgba(200, 200, 200, 0.7);
+  border-radius: 50px;
+}
+
+.ImageContainer:hover .overlay {
+  opacity: 1;
+}
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.IconImage {
+height:75px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.IconImage:hover {
+  height:85px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(10, 10, 10, 0.8);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #b6b5b5;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+#OpenBarButton {
+  color: #c4c4c4;
+  font-size:30px;
+  cursor:pointer;
+  position: absolute;
+  left:0px;
+}
+div.sticky {
+  background-color: rgba(	207, 39, 16,0.8);
+  color: #fff;
+  padding: 20px;
+  left:0;
+  top:0;
+  bottom:0;
+  right:0;
+  width:100%;
+  position: sticky;
+  
+  
+  }
