@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+  }
+  
+  .container {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+  }
+  
+  h1 {
+	font-size: 42px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #333;
+  }
+  
+  label {
+	font-size: 22px;
+	font-weight: 700;
+	margin-right: 10px;
+	color: #333;
+  }
+  
+  input[type="number"], select {
+	padding: 12px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	color: #333;
+	background-color: #f5f5f5;
+  }
+  
+  select {
+	width: 100%;
+  }
+  
+  button {
+	background-color: #1abc9c;
+	color: #fff;
+	padding: 12px 24px;
+	text-align: center;
+	font-size: 22px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 30px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+  }
+  
+  button:hover {
+	background-color: #16a085;
+  }
+  
+  input[type="text"], input[type="number"] {
+	padding: 12px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	width: 100%;
+	color: #333;
+	background-color: #f5f5f5;
+  }
+  
+  input[type="text"]:read-only, input[type="number"]:read-only {
+	background-color: #f7f7f7;
+	color: #555;
+  }
+  
+  label[for="caloriesCount"] {
+	margin-top: 30px;
+	display: block;
+	font-size: 22px;
+	font-weight: 700;
+	color: #333;
+  }
+  
+  @media (max-width: 768px) {
+	h1 {
+	  font-size: 32px;
+	  margin-bottom: 20px;
+	}
+	
+	label {
+	  font-size: 20px;
+	}
+	
+	input[type="number"], select {
+	  font-size: 18px;
+	  margin-bottom: 15px;
+	}
+	
+	button {
+	  font-size: 20px;
+	  margin-bottom: 20px;
+	  padding: 10px 20px;
+	}
+	
+	input[type="text"], input[type="number"] {
+	  font-size: 18px;
+	  margin-bottom: 15px;
+	}
+	
+	label[for="caloriesCount"] {
+	  margin-top: 20px;
+	  font-size: 20px;
+	}
+  }
+  
