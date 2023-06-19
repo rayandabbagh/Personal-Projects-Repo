@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<Head>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function Hello() {
+      alert("Check out this infographic about donations in the US!");
+      window.location.href = "Stats.html";
+    }
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+  </script>
+
+
+</Head>
+
+<Body>
+
+  <span id="OpenBarButton" onclick="openNav()">&#9776; Menu</span>
+  <div id="mySidenav" class="sidenav">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul>
+      <li> <a href="lab01.html">Home</a></li>
+      <li> <a href="Stats.html">Donation Statistics</a></li>
+      <li> <a href="AboutMe.html">About Me</a></li>
+    </ul>
+  </div>
+
+  <div class="content-container">
+    <h1>The USA diary</h1>
+    <h3>The USA's economic, political and social status.</h3>
+    <h4>By Rayan Dabbagh</h4>
+
+    <div class="ImageContainer">
+      <div class="overlay">
+        <a href="https://www.usatoday.com" class="LinkForImage">
+          <img src="https://i.pinimg.com/originals/00/50/71/005071cbf1fdd17673607ecd7b7e88f6.png" class="IconImage">
+        </a>
+      </div>
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/usa-today-com-logo-png-transparent.png" class="ListImages">
+    </div>
+
+    <div class="ImageContainer">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Fox_News_Channel_logo.png" class="ListImages">
+      <div class="overlay">
+        <a href="https://www.foxnews.com" class="LinkForImage">
+          <img src="https://i.pinimg.com/originals/00/50/71/005071cbf1fdd17673607ecd7b7e88f6.png" class="IconImage">
+        </a>
+      </div>
+
+    </div>
+    <div class="ImageContainer">
+      <img src="https://img2.pngio.com/filebbc-news-2019svg-wikipedia-bbc-news-png-1200_1200.png" class="ListImages">
+      <div class="overlay">
+        <a href="https://www.bbc.com/news" class="LinkForImage">
+          <img src="https://i.pinimg.com/originals/00/50/71/005071cbf1fdd17673607ecd7b7e88f6.png" class="IconImage">
+        </a>
+      </div>
+    </div>
+    <table>
+      <tr>
+      <th>Years</th>
+      <th>GDP (trillion USD)</th>
+      <th>Population (million)</th>
+      <th>Capital</th>
+      <th>Number of states</th>
+      <th>President</th>
+      <th>Life Expectancy (in years)</th>
+      
+      
+      </tr>
+      
+      <tr>
+        <td>1960</td>
+        <td>0.542</td>
+        <td>180.7</td>
+        <td>Washington DC </td> 
+        <td>50</td>
+        <td>Dwight D. Eisenhower </td>
+        <td>69.77</td>
+        
+        
+        </tr>
+      
+      <tr>
+      <td>1980</td>
+      <td>2.857</td>
+      <td>226.5</td>
+      <td>Washington DC </td> 
+      <td>50</td>
+      <td>Jimmy Carter</td>
+      <td>73.61</td>
+      
+      
+      </tr>
+      
+      <tr>
+          <td>2000</td>
+          <td>10,25</td>
+          <td>282.2</td>
+          <td>Washington DC </td> 
+          <td>50</td>
+          <td>Bill Clinton</td>
+          <td>76.64</td>
+          
+          
+          </tr>
+      
+          <tr>
+              <td>2020</td>
+              <td>20.54</td>
+              <td>328.2</td>
+              <td>Washington DC </td> 
+              <td>50</td>
+              <td>Donald Trump</td>
+              <td>78.93</td>
+              
+              
+              </tr>
+            
+              
+      </table>  
+    <div>
+      <button onclick="Hello()" class="button">
+        <span>Donations Infographic</span>
+      </button>
+    </div>
+    <p>
+    </p>
+
+  </div>
+  <div class="footer">
+    <a href="AboutMe.html" id="AboutMeLink">
+
+      Learn more about the writer
+
+    </a>
+  </div>
+
+</Body>
